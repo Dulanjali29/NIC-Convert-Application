@@ -25,7 +25,6 @@ export default function Nic(){
     setgender("")
   
    }
-  
     return(
    <div>
      <Card  className='m-auto  mt-5' style={{ width: '30rem' }}>
@@ -40,8 +39,8 @@ export default function Nic(){
         <Button className='mt-3'   variant="danger" onClick={search}>Submit</Button>
         </div>
       
-        <h5 className='mt-3'>Birth day :{bday}</h5>
-        <h5 className='mt-2'>Gender :{gender}</h5>
+        <h5 className='mt-3' date>Birth day :{bday}</h5>
+        <h5 className='mt-2'>Gender : {gender}</h5>
         
         <div>
        
